@@ -1,0 +1,4 @@
+Name: Washing Powder Nirma, Price: 20
+Name: Patanjali Aata, Price: 50
+Name: Maggie, Price: 12
+Name: Dairy Milk Silk, Price: 80
