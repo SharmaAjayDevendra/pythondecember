@@ -1,3 +1,4 @@
+# Add to cart and product purchase with read and write file management functionality
 totalprice=0
 while True:
 	inp=input("MENU:\n1. Purchase Product\n2. Checkout\n")
