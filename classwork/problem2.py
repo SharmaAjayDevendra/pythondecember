@@ -1,3 +1,12 @@
+"""
+	Student Attendance Problem
+myfile.txt contents:
+
+studentname: 0
+studentname: 1
+studentname: 0
+studentname: 5
+"""
 f=open("myfile.txt")
 while True:
 	k=open("myfile.txt")
