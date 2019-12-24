@@ -1,0 +1,15 @@
+from tkinter import *
+def myFunction():
+	print("Press kar dia")
+window=Tk()
+window.title("My App")
+window.geometry("500x500")
+m=Menu(window)
+m.add_command(label='File', command=myFunction)
+m.add_command(label='Edit')
+m.add_command(label='Run')
+m.add_command(label='View')
+m.add_command(label='Settings')
+m.add_command(label='Help')
+window.config(menu=m)
+window.mainloop()
