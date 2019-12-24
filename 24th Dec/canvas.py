@@ -1,0 +1,11 @@
+from tkinter import *
+window=Tk()
+window.title("My App")
+window.geometry("500x500")
+c=Canvas(window, width=450, height=450, bg='#22aaff')
+c.create_line(100, 100, 200, 100, width=10)
+c.create_oval(200, 200, 350, 400, fill='#000000')
+c.create_rectangle(300, 20, 350, 150, fill='#990000')
+c.create_polygon(20, 20, 120, 30, 170, 240, 50, 150, 60, 60, fill='#008800')
+c.pack()
+window.mainloop()
